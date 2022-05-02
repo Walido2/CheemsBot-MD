@@ -26,7 +26,7 @@ global.owner = ['201028453763','201554496598'] //owner number, u can put multipl
 global.pemilik = ['201028453763'] //another owner number
 global.premium = ['201028453763'] //premium number
 global.pengguna = 'Xeon' //username
-global.botnma = 'Cheems Bot-MD' //bot name
+global.botnma = 'JOKER Bot-MD' //bot name
 global.ownernma = '☠MR Lido' //owner name
 global.packname = 'Cheems Bot' //sticker package name
 global.author = 'By MR Lido' //sticker author name
@@ -34,7 +34,7 @@ global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '⭔' //design
 global.mess = {
-    success: 'Done ✓',
+    success: ' تم بنجاح✓',
     admin: 'This Feature Is Only For Admin!',
     botAdmin: 'Bot Must Be Admin First!',
     owner: 'This Feature Is Only For Owner',
