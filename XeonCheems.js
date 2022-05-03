@@ -2431,7 +2431,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
  في بوت جوكر 
 
 
-❏「 JOKER BOT 」
+❏「 Soka Bot معلومات  」
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -2440,9 +2440,9 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
--Developer : MRLido
+ Developer : MRLido
 
-Please Select Button Below
+اختار من الازرار تحت
 `,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2456,17 +2456,17 @@ Please Select Button Below
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🔱All Menu🔱',
+                                    displayText: '🔱كل الاوامر🔱',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🔰List Menu🔰',
+                                    displayText: '🔰قائمه الاوامر🔰',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '👤المطور👤',
                                     id: `${prefix}owner`
                                 }
                             }]
